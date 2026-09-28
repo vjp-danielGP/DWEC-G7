@@ -16,3 +16,12 @@ MODELO CLIENTE SERVIDOR
 - Procesado: El servidor recibe la petición y consulta sus bases de datos para elaborar la respuesta que corresponda.
 - Respuesta (Response): El servidor envía de vuelta al cliente una serie de datos, en los que se incluyen archivos HTML, CSS, JS, JSON, etc.
 - Renderizado (Render): Se encarga de "dibujar" la interfaz que vemos en pantalla para que se pueda interactuar y leer en ella.
+
+PETICIONES (DevTools)
+Captura 1
+- Método: GET
+- Código de estado: 200 (Éxito)
+- Content-Type: text/html
+- Explicación: El navegador pide mediante GET la página principal o portada de marca.com,
+el servidor responde con 200, pues se ha procesado correctamente. Devuelve el html de la 
+página, es relevante porque a partir de esta petición se solicitan el CSS, JS, imágenes, etc.
