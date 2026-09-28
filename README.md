@@ -32,3 +32,9 @@ Captura 2
 - Código de estado: 200 (Éxito)
 - Content-Type: image/x-icon
 - Explicación: El navegador solicita el archivo del favicon de la página, al funcionar correctamente, devuelve el archivo del icono y lo muestra en la barra de pestañas.
+
+Captura 3
+- Método: POST
+- Código de estado: 200 (Éxito)
+- Content-Type: application/json
+- Explicación: El navegador envía mediante el método POST información para realizar una sincronización de las cookies para el correcto funcionamiento del sistema publicitario.
