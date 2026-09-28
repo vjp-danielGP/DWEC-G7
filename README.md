@@ -10,3 +10,9 @@ BACKEND
 - Gestor de contenido: Plataforma en la cual redactores y editores suben su contenido.
 - APIs de resultados en directo: Proporciona información en tiempo real acerca de goles, tiempos, marcadores, etc.
 - Tecnologías principales: MySQL, Node,js, JAVA o PHP.
+
+MODELO CLIENTE SERVIDOR
+- Petición (Request): Cuando entras a la web o pulsas sobre alguna noticia, el navegador (cliente) envia una petición al servidor utlizando el protocolo HTTPS a los servidores de Marca.
+- Procesado: El servidor recibe la petición y consulta sus bases de datos para elaborar la respuesta que corresponda.
+- Respuesta (Response): El servidor envía de vuelta al cliente una serie de datos, en los que se incluyen archivos HTML, CSS, JS, JSON, etc.
+- Renderizado (Render): Se encarga de "dibujar" la interfaz que vemos en pantalla para que se pueda interactuar y leer en ella.
